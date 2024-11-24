@@ -660,6 +660,10 @@ footer .copyright {
     font-size: 1.5em;
   }
 
+  .map-container figure {
+    padding-bottom: 55%;
+  }
+
 /***** FAQ Page *****/
 
 .faq .content-wrapper {
@@ -764,6 +768,9 @@ footer h4 {
   font-size: 3em;
 }
 
+.map-container figure {
+  padding-bottom: 47%;
+}
 /***** FAQ Page *****/
 
 .faq h2 {
