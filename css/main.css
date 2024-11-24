@@ -90,7 +90,7 @@ textarea {
 /** General Styles **/
 
 .content-wrapper {
-  outline: 3px dotted red;
+  /*outline: 3px dotted red;*/
   width: 90%;
   margin: 50px 0;
 } 
@@ -222,7 +222,15 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  background-color: #527158;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+ }
+
+ footer .social-icons i {
+  font-size: 1.3125em;
+ }
 
 .copyright {
   margin: 20px 0;
@@ -638,6 +646,10 @@ footer p {
 
 footer .copyright {
   width: 100%;
+}
+footer .social-icons {
+  justify-content: space-between;
+  width: 12.5em;
 }
 
 /***** ABOUT Page *****/
