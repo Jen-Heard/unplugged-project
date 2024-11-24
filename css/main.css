@@ -341,6 +341,7 @@ input[type=button] {
   margin: 20px 0;
   }
 
+
 /************************** ABOUT PAGE ************************/
 
 .mission {
@@ -349,10 +350,17 @@ input[type=button] {
   background-color: #527158;
 }
 
+.mission h2 {
+  width: 96%;
+}
+
 .contact-section {
   display: flex;
   justify-content: center;
   background-color: #2a423a;
+}
+.contact-section h2 {
+  width: 90%;
 }
 
 .contact-content p {
@@ -402,8 +410,9 @@ input[type=button] {
   margin-bottom: 50px;
 }
 
-.faq-content h4 {
+.faq h4 {
   line-height: 1.333;
+  width: 90%;
 }
 
 
@@ -579,6 +588,7 @@ aside .content-wrapper .form {
 
 .features h2 {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .features article {
@@ -654,6 +664,9 @@ footer .social-icons {
 
 /***** ABOUT Page *****/
 
+.mission h2 { 
+  width: 100%;
+}
 
 .mission-content {
   display: flex;
@@ -703,6 +716,10 @@ footer .social-icons {
 .faq p {
   font-size: .875em;
   line-height: 1.125;
+}
+
+.faq h4 {
+  width: 100%
 }
 
 }
@@ -783,11 +800,16 @@ footer h4 {
 
 /***** About Page *****/
 
-.mission h2,
- .contact-section .contact-wrapper h2 {
+.mission h2{
   width: 90%;
   font-size: 3em;
 }
+
+.contact-section .content-wrapper h2 {
+  font-size: 3em;
+  width: 90%;
+}
+
 
 .map-container figure {
   padding-bottom: 47%;
