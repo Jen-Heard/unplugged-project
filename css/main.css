@@ -311,6 +311,11 @@ input[type=button] {
   text-align: center;
 }
 
+.features i {
+  font-size: 3.75em;
+  padding-bottom: 40px;
+}
+
 /**** Reviews ****/
 .reviews {
   display: flex;
@@ -577,6 +582,10 @@ aside .content-wrapper .form {
 
 .features .features-description {
   width: 62%;
+}
+
+.features i {
+  padding-bottom: 30px;
 }
 
 /* Reviews Area */
